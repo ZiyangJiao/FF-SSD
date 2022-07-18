@@ -4,3 +4,7 @@ Fast-Forwardable SSD is a machine learning-based SSD aging framework that genera
 
 
 FF-SSD has been [published in HotStorage 2022](https://dl.acm.org/doi/10.1145/3538643.3539757).
+
+## Contact
+
+In case of issues or questions, please email zjiao04@syr.edu.
