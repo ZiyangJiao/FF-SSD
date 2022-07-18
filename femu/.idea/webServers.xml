@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f0dce4e0-d686-49c0-825c-3dcb19897ac7" name="LabServer">
+        <fileTransfer rootFolder="/home/zjiao04" accessType="SFTP" host="128.230.208.139" port="22" sshConfigId="8aae0788-ae9e-45e7-81f5-3eb95cdaef67" sshConfig="zjiao04@128.230.208.139:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2de2082f-078d-4e0c-97d9-2fa0711c0c08" name="ClassServer">
+        <fileTransfer rootFolder="/home/zjiao04" accessType="SFTP" host="lcs-vc-cis341.syr.edu" port="22" sshConfigId="a5b9a261-3d2e-4096-b0a2-7c41687d388a" sshConfig="zjiao04@lcs-vc-cis341.syr.edu:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

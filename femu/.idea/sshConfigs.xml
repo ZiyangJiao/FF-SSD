@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="128.230.208.139" id="8aae0788-ae9e-45e7-81f5-3eb95cdaef67" port="22" nameFormat="DESCRIPTIVE" username="zjiao04" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="lcs-vc-cis341.syr.edu" id="a5b9a261-3d2e-4096-b0a2-7c41687d388a" port="22" nameFormat="DESCRIPTIVE" username="zjiao04" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="simplessd"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\simplessd\;CMake Files\simplessd\lib\;CMake Files\simplessd\lib\mcpat\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zjiao04/simplessd-standalone/simplessd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simplessd">
+				<Option output="/home/zjiao04/simplessd-standalone/libsimplessd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zjiao04/simplessd-standalone/simplessd"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/inih"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/lib/drampower/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 simplessd"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simplessd/fast">
+				<Option output="/home/zjiao04/simplessd-standalone/libsimplessd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zjiao04/simplessd-standalone/simplessd"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/inih"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/lib/drampower/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 simplessd/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcpat">
+				<Option output="/home/zjiao04/simplessd-standalone/libmcpat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/Makefile&quot;  VERBOSE=1 mcpat"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcpat/fast">
+				<Option output="/home/zjiao04/simplessd-standalone/libmcpat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat"/>
+					<Add directory="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/Makefile&quot;  VERBOSE=1 mcpat/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/cpu/config.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/cpu/config.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/cpu/cpu.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/cpu/cpu.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/dram/abstract_dram.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/dram/abstract_dram.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/dram/config.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/dram/config.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/dram/simple.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/dram/simple.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/ftl/common/block.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/ftl/common/block.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/ftl/config.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/ftl/config.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/ftl/ftl.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/ftl/ftl.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/ftl/page_mapping.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/ftl/page_mapping.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/hil.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/hil.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/abstract_subsystem.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/abstract_subsystem.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/config.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/config.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/controller.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/controller.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/dma.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/dma.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/namespace.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/namespace.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/ocssd.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/ocssd.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/queue.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/queue.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/subsystem.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/nvme/subsystem.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/sata/config.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/sata/config.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/sata/device.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/sata/device.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/sata/hba.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/sata/hba.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/ufs/config.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/ufs/config.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/ufs/def.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/ufs/def.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/ufs/device.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/ufs/device.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/ufs/host.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/hil/ufs/host.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/icl/abstract_cache.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/icl/abstract_cache.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/icl/config.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/icl/config.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/icl/generic_cache.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/icl/generic_cache.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/icl/icl.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/icl/icl.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/inih/ini.c">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/inih/ini.h">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/XML_Parse.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/XML_Parse.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/array.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/array.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/basic_components.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/basic_components.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/Ucache.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/Ucache.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/arbiter.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/arbiter.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/area.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/area.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/bank.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/bank.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/basic_circuit.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/basic_circuit.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/cacti_interface.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/cacti_interface.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/component.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/component.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/crossbar.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/crossbar.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/decoder.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/decoder.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/htree2.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/htree2.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/io.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/io.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/main.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/mat.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/mat.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/nuca.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/nuca.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/parameter.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/parameter.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/powergating.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/powergating.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/router.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/router.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/subarray.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/subarray.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/technology.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/uca.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/uca.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/wire.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/cacti/wire.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/core.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/core.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/interconnect.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/interconnect.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/iocontrollers.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/iocontrollers.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/logic.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/logic.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/mcpat.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/mcpat.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/memoryctrl.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/memoryctrl.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/noc.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/noc.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/processor.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/processor.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/sharedcache.cc">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/sharedcache.h">
+			<Option target="mcpat"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/config.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/config.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/Latency.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/Latency.h">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/LatencyMLC.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/LatencyMLC.h">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/LatencySLC.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/LatencySLC.h">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/LatencyTLC.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/LatencyTLC.h">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/PAL2.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/PAL2.h">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/PAL2_TimeSlot.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/PAL2_TimeSlot.h">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/PALStatistics.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/old/PALStatistics.h">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/pal.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/pal.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/pal_old.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/pal/pal_old.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/config_reader.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/config_reader.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/cpu.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/cpu.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/log.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/log.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/simulator.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/simulator.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/state.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/sim/state.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/bitset.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/bitset.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/def.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/def.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/disk.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/disk.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/fifo.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/fifo.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/interface.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/interface.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/simplessd.cc">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/util/simplessd.hh">
+			<Option target="simplessd"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simplessd\"/>
+		</Unit>
+		<Unit filename="/home/zjiao04/simplessd-standalone/simplessd/lib/mcpat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simplessd\lib\mcpat\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
